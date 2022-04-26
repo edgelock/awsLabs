@@ -6,10 +6,10 @@ Resources:
     Properties:
       FileSystemType: "ONTAP"
       StorageCapacity: 1024
-      SubnetIds: ["subnet-70df7e16", "subnet-873c9ed8"]
+      SubnetIds: ["subnet-48a22623", "subnet-09e3b945"]
       OntapConfiguration:
         DeploymentType: "MULTI_AZ_1"
-        PreferredSubnetId: "subnet-70df7e16"
+        PreferredSubnetId: "subnet-48a22623"
         ThroughputCapacity: 128
   TestOntapSvm:
     Type: "AWS::FSx::StorageVirtualMachine"
